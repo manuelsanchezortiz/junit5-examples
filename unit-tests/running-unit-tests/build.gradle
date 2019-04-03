@@ -14,5 +14,5 @@ test {
     testLogging {
         showStandardStreams = true
     }
-    maxParallelForks = 2
+    maxParallelForks = Runtime.getRuntime().availableProcessors()/2 ?: 1
 }
