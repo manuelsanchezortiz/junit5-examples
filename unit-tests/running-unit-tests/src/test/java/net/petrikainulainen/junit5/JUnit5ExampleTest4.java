@@ -2,7 +2,7 @@ package net.petrikainulainen.junit5;
 
 import org.junit.jupiter.api.Test;
 
-class JUnit5ExampleTest {
+class JUnit5ExampleTest4 {
 
     @Test
     void justAnExample() throws InterruptedException {
